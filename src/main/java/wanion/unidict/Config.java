@@ -16,6 +16,7 @@ import gnu.trove.map.hash.TObjectLongHashMap;
 import net.minecraftforge.common.config.Configuration;
 import org.apache.commons.lang3.text.WordUtils;
 import wanion.unidict.common.Reference;
+import wanion.unidict.common.Tags;
 import wanion.unidict.resource.Resource;
 
 import java.io.File;
@@ -28,7 +29,7 @@ import static wanion.unidict.common.Reference.SLASH;
 public final class Config
 {
     // config
-    private static final Configuration config = new Configuration(new File("." + SLASH + "config" + SLASH + Reference.MOD_NAME + ".cfg"), Reference.MOD_VERSION);
+    private static final Configuration config = new Configuration(new File("." + SLASH + "config" + SLASH + Reference.MOD_NAME + ".cfg"), Tags.MOD_VERSION);
 
     // ensure mod loaded
     public static boolean forestry;

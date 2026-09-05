@@ -34,6 +34,7 @@ import java.util.Map;
 import java.util.Set;
 
 import static wanion.unidict.common.Reference.*;
+import static wanion.unidict.common.Tags.*;
 
 @SuppressWarnings("unused")
 @Mod(modid = MOD_ID, name = MOD_NAME, version = MOD_VERSION, acceptedMinecraftVersions = MC_VERSION, dependencies = "after:*")
