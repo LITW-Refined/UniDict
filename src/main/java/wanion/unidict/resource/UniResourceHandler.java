@@ -154,7 +154,7 @@ public final class UniResourceHandler
 
     public void postInit()
     {
-        apiResourceMap.values().parallelStream().forEach(Resource::updateEntries);
+        apiResourceMap.values().forEach(Resource::updateEntries);
         Resource customResource;
         for (String customEntry : Config.customUnifiedResources.keySet())
             if ((customResource = resourceMap.get(customEntry)) != null)
